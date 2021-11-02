@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEthers } from '@usedapp/core';
+import { useEthers, DAppProvider, ChainId } from '@usedapp/core';
 
 function App() {
   const { account, accessBrowserWallet } = useEthers();
