@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { DAppProvider, ChainId } from '@usedapp/core';
 import { Header } from './components/Header';
